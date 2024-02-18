@@ -10,7 +10,7 @@ public class TestController {
 
     @GetMapping("/test")
     public String test1() {
-        return "test String print";
+        return "test edit";
     }
 
     @GetMapping("/test/{id}")
